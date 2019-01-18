@@ -2,7 +2,8 @@
 이 문제는 사용자로부터 유효값 검증없이 입력을 받아 overflow 취약점이 존재한다. key 라는 변수의 값에 0xcafebabe 값과 동일하게 맞춰줄 경우 플래그를 출력한다. < 소스코드 참조 >
 
 gdb 로 디버깅 해보면 스택의 구조는 다음과 같다.
-<center>| overflowme(32byte) | dummy(12byte) | sfp(4byte) | ret(4byte) | key(0xdeadbeef) |</center>
+
+| overflowme(32byte) | dummy(12byte) | sfp(4byte) | ret(4byte) | key(0xdeadbeef) |
 
 즉, 52byte 만큼 덮어쓰면, key 값을 변경할 수 있다.
 
