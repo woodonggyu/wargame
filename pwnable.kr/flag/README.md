@@ -1,8 +1,11 @@
 # flag
 이 문제는 64bit linux binary 가 주어진다.
+
 실행 시, "I will malloc() and strcpy the flag there. take it" 이라는 문자열을 출력한 후 종료한다.
 
+
 풀이 방법은 간단한다. 문제에서 힙 영역을 할당받은 후 flag 를 복사한다고 되어있다. 
+
 쉽게 말해서, strcpy() 함수 호출 인자를 확인해보면 힙 영역주소와 함께 flag 가 인자에 포함된다.
 
 ```c
