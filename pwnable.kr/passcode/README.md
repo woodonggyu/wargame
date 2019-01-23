@@ -14,8 +14,9 @@
 
 welcome() 함수에서 입력받는 name 변수의 100 byte 중 마지막 4 byte 는 passcode1 의 값이다. 이 passcode1 의 값을 fflush() 의 got 주소를 저장한 후, passcode1 을 입력받을 때, system() 가 실행되는 주소를 입력해주면 플래그를 출력하게 될 것이다.
 
-<center>**welcome() stack : | 96 byte | 4 byte (passcode1) |**</center>
+welcome() stack : | 96 byte | 4 byte (passcode1) |
 
+&nbsp;
 
 ```c
 #include <stdio.h>
