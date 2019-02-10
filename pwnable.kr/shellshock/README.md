@@ -1,5 +1,5 @@
 # shellshock
-shellshock 에 대한 설명은 다른 사이트에서 참조하길 바란다.&nbsp
+shellshock 에 대한 설명은 다른 사이트에서 참조하길 바란다.&nbsp;
 bash 는 취약점이 존재하는 bash 로, 환경변수를 통해 함수를 정의한 후 임의의 명령을 추가하면 해당 명령이 실행된다.
 
 ```c
