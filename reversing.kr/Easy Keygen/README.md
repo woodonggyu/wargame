@@ -21,8 +21,11 @@ Serial 값을 2자리씩 끊으면, [5B, 13, 49, 77, 13, 5E, 7D, 13] 이 된다.
 &nbsp;
 * 0x77 xor 0x10	// ASCII "g"
 * 0x13 xor 0x20	// ASCII "3"
-			.
-			.
+
+	&nbsp;
+	.
+	&nbsp;
+	.
 
 * 0x13 xor 0x20	// ASCII "3"
 
