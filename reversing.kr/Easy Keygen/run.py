@@ -1,4 +1,3 @@
-
 cnt = 1
 serial = "5B134977135E7D13"
 
@@ -12,3 +11,4 @@ for i in range(0, len(serial), 2):
         cnt += 1
     flag += v
 print("FLAG : {}".format(flag))
+
