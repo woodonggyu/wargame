@@ -22,7 +22,7 @@
 
 &nbsp;
 
-위에서 얻은 정보(bmp 파일 헤더 + 픽셀 데이터)를 바탕으로 다음과 같이 bmp 파일을 생성할 수 있다. < 2.png, 3.png 참조 >
+위에서 얻은 정보( bmp 파일 헤더 + 픽셀 데이터 )를 바탕으로 다음과 같이 bmp 파일을 생성할 수 있다. < 2.png, 3.png 참조 >
 
 * BMP File Format : http://www.fastgraph.com/help/bmp_header_format.html
 
