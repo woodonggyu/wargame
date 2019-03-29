@@ -1,7 +1,6 @@
 word_4 = 0x70
 serial = "76876-77776"
 
-
 for word_1 in range(0x61, 0x7b):
     v8 = (word_1 & 1) + 5
     v59 = ((word_1 >> 4) & 1) + 5
@@ -44,10 +43,3 @@ for word_3 in range(0x61, 0x7b):
                 if v56 + v46 == int(serial[9]):
                     if v60 + v48 == int(serial[10]):
                         print('word_3 = {}, word_4 = {}\n'.format(chr(word_3), chr(word_4)))
-
-                
-
-    
-    
-    
-    
