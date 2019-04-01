@@ -44,3 +44,11 @@ for word_3 in range(0x61, 0x7b):
                     if v60 + v48 == int(serial[10]):
                         print('word_3 = {}, word_4 = {}\n'.format(chr(word_3), chr(word_4)))
 
+
+
+# word_1 = b, word_2 = u
+# word_1 = c, word_2 = q
+# word_1 = f, word_2 = t
+# word_1 = g, word_2 = p
+# - - - - - - - - - - - - 
+# word_3 = m, word_4 = p
