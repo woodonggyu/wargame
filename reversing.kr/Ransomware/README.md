@@ -37,8 +37,8 @@
 
 **KEY : letsplaychess** 
 
-&nbsp;
-
 복호화 된 파일을 실행시키면 플래그를 출력한다.
+
+& nbps;
 
 FLAG : **Colle System**
